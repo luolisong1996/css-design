@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Lazypositioning from '@/components/Lazypositioning'
-
+import HeadNavigation from '@/components/HeadNavigation'
 Vue.use(Router)
 
 export default new Router({
@@ -16,6 +16,11 @@ export default new Router({
       path: '/Lazypositioning',
       name: 'Lazypositioning',
       component: Lazypositioning
+    },
+    {
+      path: '/HeadNavigation',
+      name: 'HeadNavigation',
+      component: HeadNavigation
     }
   ]
 })

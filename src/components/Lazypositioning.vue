@@ -111,4 +111,7 @@ export default {
   font-size:20px;
   margin-right: 10px;
 }
+.content :nth-child(3){
+  margin-left: 25px;
+}
 </style>
